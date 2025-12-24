@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smooth Sticky Nav</title>
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: brown;
+    min-height: 200vh;
+}
+
+.nav{
+    background-color: black;
+    height: 45px;
+    width: 100%;
+    margin-top: 50px;
+
+    position: sticky;
+    top: 10px;
+
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+}
+</style>
+</head>
+
+<body>
+    <div class="nav">This is nav</div>
+</body>
+</html>
